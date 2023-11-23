@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero {
+    height: 640px;
+    width: 100%;
+    background-image: linear-gradient(pink, white, rgb(107, 13, 179));
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin: -3px;
+    padding-right: 10%;
+    background-color: white;
+    border: pink 3px solid;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 600;
+    transition: 2s;
+    transition: duration 2s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(139, 39, 181);
+}
+
+nav ul li:hover {
+    color: cadetblue;
+    font-weight: 100;
+}
+
+.logo span {
+    color: rgb(194, 87, 187);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.large-button {
+    background-color: rgb(190, 139, 238);
+    border: 0;
+    border-radius: 6px;
+    margin: 4px;
+    padding: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Tilt Neon', sans-serif;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: large;
+    box-shadow: 2px 2px rgb(187, 0, 255);
+
+
+}
+
+.large-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.large-button a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.large-button:hover {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: plum;
+}
+
+.first-section {
+    color: rgb(71, 11, 128);
+    width: 100%;
+    height: auto;
+    font-size: 40px;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.first-section .greet {
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 55px;
+    color: rgb(137, 137, 251);
+}
+
+.name {
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 50px;
+    color: rgb(201, 102, 201);
+}
+
+.post {
+    font-family: 'Tilt Neon', sans-serif;
+    color: coral;
+    font-size: 50px;
+}
+
+.gif-div {
+    background-image: url(./Resourcses/hero_gif.gif);
+    background-position: 600px;
+    height: 584px;
+    background-repeat: no-repeat;
+    /* margin: 10px; */
+    padding: 10px;
+}
